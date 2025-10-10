@@ -447,4 +447,30 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "meg ryan",
         ]
     ),
+    (
+        "the terminator",
+        "james cameron",
+        1984,
+        [
+            "arnold schwarzenegger",
+            "linda hamilton",
+            "michael biehn",
+            "earl boen",
+            "bill paxton",
+            "lance henriksen",
+        ]
+    ),
+    (
+        "jurassic park",
+        "steven spielburg",
+        "1993",
+        [
+            "laura dem",
+            "jeff goldblum",
+            "sam neill",
+            "ariana richards",
+            "richard attenborough",
+            "BD wong"
+        ]
+    ),
 ]
