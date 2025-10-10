@@ -482,7 +482,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "cassie scerbo",
             "jaason simmons",
             "adrian bustamante",
-        ]
+        ],
     ),
     (
         "the shallows",
@@ -493,6 +493,31 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "oscar jaenada",
             "sedona legge",
             "brett cullen",
-        ]
+        ],
+    ),
+    (
+        "big",
+        "penny marshall",
+        1988,
+        [
+            "tom hanks",
+            "elizabeth perkins",
+            "jared rushton",
+            "david moscow",
+            "robert loggia",
+            "john heard",
+        ],
+    ),
+    (
+        "the truman show",
+        "peter weir",
+        1998,
+        [
+            "jim carrey",
+            "laura linney",
+            "ed harris",
+            "natascha mcelhone",
+            "noah emmerich"
+        ],
     ),
 ]
