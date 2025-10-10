@@ -445,7 +445,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "kelly mcgillis",
             "anthony edwards",
             "meg ryan",
-        ]
+        ],
     ),
     (
         "the terminator",
@@ -458,19 +458,19 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "earl boen",
             "bill paxton",
             "lance henriksen",
-        ]
+        ],
     ),
     (
         "jurassic park",
         "steven spielburg",
-        "1993",
+        1993,
         [
             "laura dem",
             "jeff goldblum",
             "sam neill",
             "ariana richards",
             "richard attenborough",
-            "BD wong"
-        ]
+            "BD wong",
+        ],
     ),
 ]
