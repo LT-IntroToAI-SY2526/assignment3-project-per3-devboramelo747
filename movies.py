@@ -520,4 +520,41 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "noah emmerich"
         ],
     ),
+    (
+        "the matrix",
+        "lana Wachowski, lilly Wachowski",
+        1999,
+        [
+            "keanu reaves",
+            "carrie-anne moss",
+            "laurence fishborne",
+            "hugo weaving",
+            "gloria foster",
+        ],
+    ),
+    (
+        "the abyss",
+        "james cameron",
+        1989,
+        [
+            "ed harris",
+            "mary elizabeth mastrantonio",
+            "michael biehn",
+            "kidd brewer jr",
+            "dick warlock",
+        ],
+    ),
+    (
+        "crouching tiger, hidden dragon",
+        "ang lee",
+        2000,
+        [
+            "michelle yeoh",
+            "zhang ziyi",
+            "chow yun fat",
+            "chang chen",
+            "xian gao",
+            "cheng pei-pei",
+        ],
+    ),
 ]
