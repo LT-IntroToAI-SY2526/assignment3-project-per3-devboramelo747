@@ -447,4 +447,27 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "meg ryan",
         ]
     ),
+    (
+        "sharknado",
+        "anthony c. ferrante",
+        2013,
+        [
+            "ian ziering",
+            "cassie scerbo",
+            "jaason simmons",
+            "adrian bustamante",
+        ]
+    ),
+    (
+        "the shallows",
+        "jaume collet-serra",
+        2016,
+        [
+            "blake lively",
+            "oscar jaenada",
+            "sedona legge",
+            "brett cullen",
+        ]
+    ),
+    
 ]
