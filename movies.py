@@ -576,6 +576,9 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "ben palacios",
             "jenn liu",
             "jason ellsworth",
+            "matthew ellsworth",
+            "matteo molinari",
+            "dale e. turner"
             
         ]
     )    
