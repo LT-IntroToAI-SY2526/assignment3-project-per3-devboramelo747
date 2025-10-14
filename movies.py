@@ -581,5 +581,17 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "dale e. turner"
             
         ]
-    )    
+    ),
+    (
+        "the sandlot",
+        "david mickey evans",
+        1993,
+        [
+            "mike vitar",
+            "patrick renna",
+            "marty york",
+            "chauncey leopardi",
+            "tom guiry",
+        ],
+    ),    
 ]
