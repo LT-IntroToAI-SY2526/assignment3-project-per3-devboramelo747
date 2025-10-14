@@ -565,8 +565,8 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "donald farmer",
             "alaine huntington",
             "bobby kerecz",
-            "christy moritz",
-        ],
+            "christy moritz"
+        ]
     ),
     (
         "bad cgi sharks",
@@ -578,9 +578,21 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "jason ellsworth",
             "matthew ellsworth",
             "matteo molinari",
-            "dale e. turner",
+            "dale e. turner"
             
-        ],
+        ]
+    ),  
+    (
+        "the meg",
+        "jon turteltaub",
+        2018,
+        [
+            "jason statham",
+            "li bingbing",
+            "ruby rose",
+            "shuya sophia cai",
+            "rainn wilson"
+        ]
     ),
     
 
@@ -609,53 +621,16 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
 
 
     (
-        "the sandlot",
-        "david mickey evans",
-        1993,
+        "6 headed attack attack",
+        "mark atkins",
+        2018,
         [
-            "mike vitar",
-            "patrick renna",
-            "marty york",
-            "chauncey leopardi",
-            "tom guiry",
-        ],
-    ),
-    (
-        "alien",
-        "ridley scott",
-        1979,
-        [
-            "sigourney weaver",
-            "tom skerritt",
-            "veronica catwright",
-            "john hurt",
-            "ian holm",
-            "harry dean stanton",
-        ],
-    ),
-    (
-        "inception",
-        "christopher nolan",
-        2010,
-        [
-            "leonardo dicaprio",
-            "cillian murphy",
-            "joseph gordon-levitt",
-            "tom hardy",
-            "elliot page",
-            "marion cotillard",
-        ],
-    ),
-    (
-        "the sixth sense",
-        "m night shyamalan",
-        1999,
-        [
-            "haley joel osment",
-            "bruce willis",
-            "toni collette",
-            "donnie wahlberg",
-            "mischa barton",
-        ],
-    ),
+            "thandi sebe",
+            "naima sebe",
+            "meghan oberholzer",
+            "brandon auret",
+            "cord newman",
+            "caitlin harty (baddie)"
+        ]
+    )  
 ]
