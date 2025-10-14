@@ -565,8 +565,8 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "donald farmer",
             "alaine huntington",
             "bobby kerecz",
-            "christy moritz"
-        ]
+            "christy moritz",
+        ],
     ),
     (
         "bad cgi sharks",
@@ -578,9 +578,9 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "jason ellsworth",
             "matthew ellsworth",
             "matteo molinari",
-            "dale e. turner"
+            "dale e. turner",
             
-        ]
+        ],
     ),
     (
         "the sandlot",
@@ -593,5 +593,43 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "chauncey leopardi",
             "tom guiry",
         ],
-    ),    
+    ),
+    (
+        "alien",
+        "ridley scott",
+        1979,
+        [
+            "sigourney weaver",
+            "tom skerritt",
+            "veronica catwright",
+            "john hurt",
+            "ian holm",
+            "harry dean stanton",
+        ],
+    ),
+    (
+        "inception",
+        "christopher nolan",
+        2010,
+        [
+            "leonardo dicaprio",
+            "cillian murphy",
+            "joseph gordon-levitt",
+            "tom hardy",
+            "elliot page",
+            "marion cotillard",
+        ],
+    ),
+    (
+        "the sixth sense",
+        "m night shyamalan",
+        1999,
+        [
+            "haley joel osment",
+            "bruce willis",
+            "toni collette",
+            "donnie wahlberg",
+            "mischa barton",
+        ],
+    ),
 ]
