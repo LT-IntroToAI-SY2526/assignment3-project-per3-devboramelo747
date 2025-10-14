@@ -595,7 +595,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
         ]
     ),
     (
-        "6 headed attack attack",
+        "6 headed shark attack",
         "mark atkins",
         2018,
         [
