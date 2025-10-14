@@ -557,4 +557,26 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "cheng pei-pei",
         ],
     ),
+    (
+        "shark exorcist",
+        "donald farmer",
+        2015,
+        [
+            "donald farmer",
+            "alaine huntington",
+            "bobby kerecz",
+            "christy moritz"
+        ]
+    ),
+    (
+        "bad cgi sharks",
+        "majama",
+        2019,
+        [
+            "ben palacios",
+            "jenn liu",
+            "jason ellsworth",
+            
+        ]
+    )    
 ]
