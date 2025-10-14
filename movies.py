@@ -580,7 +580,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "matteo molinari",
             "dale e. turner",
             
-        ]
+        ],
     ),  
     (
         "the meg",
@@ -591,7 +591,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "li bingbing",
             "ruby rose",
             "shuya sophia cai",
-            "rainn wilson",
+            "rainn wilson"
         ]
     ),
     (
@@ -604,7 +604,57 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "meghan oberholzer",
             "brandon auret",
             "cord newman",
-            "caitlin harty (baddie)",
+            "caitlin harty (baddie)"
         ]
     )  
+    (
+        "the sandlot",
+        "david mickey evans",
+        1993,
+        [
+            "mike vitar",
+            "patrick renna",
+            "marty york",
+            "chauncey leopardi",
+            "tom guiry",
+        ],
+    ),
+    (
+        "alien",
+        "ridley scott",
+        1979,
+        [
+            "sigourney weaver",
+            "tom skerritt",
+            "veronica catwright",
+            "john hurt",
+            "ian holm",
+            "harry dean stanton",
+        ],
+    ),
+    (
+        "inception",
+        "christopher nolan",
+        2010,
+        [
+            "leonardo dicaprio",
+            "cillian murphy",
+            "joseph gordon-levitt",
+            "tom hardy",
+            "elliot page",
+            "marion cotillard",
+        ],
+    ),
+    (
+        "the sixth sense",
+        "m night shyamalan",
+        1999,
+        [
+            "haley joel osment",
+            "bruce willis",
+            "toni collette",
+            "donnie wahlberg",
+            "mischa barton",
+        ],
+    ),
 ]
