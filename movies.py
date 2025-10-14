@@ -657,4 +657,30 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "mischa barton",
         ],
     ),
+    (
+        "mad max: fury road",
+        "george miller",
+        2015,
+        [
+            "tom hardy",
+            "charlize theron",
+            "nicholas hoult",
+            "hugh keays-byrne",
+            "zoë kravitz",
+            "courtney eaton",
+        ],
+    ),
+    (
+        "tron",
+        "steven lisburger",
+        1982,
+        [
+            "jeff bridges",
+            "bruce boxleitner",
+            "david warner",
+            "cindy morgan",
+            "dan shor",
+            "barnard hughes",
+        ],
+    ),
 ]
