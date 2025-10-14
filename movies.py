@@ -565,7 +565,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "donald farmer",
             "alaine huntington",
             "bobby kerecz",
-            "christy moritz"
+            "christy moritz",
         ]
     ),
     (
@@ -578,7 +578,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "jason ellsworth",
             "matthew ellsworth",
             "matteo molinari",
-            "dale e. turner"
+            "dale e. turner",
             
         ]
     ),  
@@ -591,7 +591,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "li bingbing",
             "ruby rose",
             "shuya sophia cai",
-            "rainn wilson"
+            "rainn wilson",
         ]
     ),
     (
@@ -604,7 +604,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "meghan oberholzer",
             "brandon auret",
             "cord newman",
-            "caitlin harty (baddie)"
+            "caitlin harty (baddie)",
         ]
     )  
 ]
