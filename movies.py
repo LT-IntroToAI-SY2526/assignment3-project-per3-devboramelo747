@@ -591,8 +591,8 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "li bingbing",
             "ruby rose",
             "shuya sophia cai",
-            "rainn wilson"
-        ]
+            "rainn wilson",
+        ],
     ),
     (
         "6 headed shark attack",
@@ -604,8 +604,8 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "meghan oberholzer",
             "brandon auret",
             "cord newman",
-            "caitlin harty (baddie)"
-        ]
+            "caitlin harty (baddie)",
+        ],
     )  
     (
         "the sandlot",
