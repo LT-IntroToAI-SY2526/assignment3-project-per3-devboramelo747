@@ -23,20 +23,23 @@ from match import match
 from typing import List, Tuple, Callable, Any
 
 # The projection functions, that give us access to certain parts of a "movie" (a tuple)
-def get_title(movie: Tuple[str, str, int, List[str]]) -> str:
+def get_title(movie: Tuple[str, str, int, List[str], str]) -> str:
     return movie[0]
 
 
-def get_director(movie: Tuple[str, str, int, List[str]]) -> str:
+def get_director(movie: Tuple[str, str, int, List[str], str]) -> str:
     return movie[1]
 
 
-def get_year(movie: Tuple[str, str, int, List[str]]) -> int:
+def get_year(movie: Tuple[str, str, int, List[str], str]) -> int:
     return movie[2]
 
 
-def get_actors(movie: Tuple[str, str, int, List[str]]) -> List[str]:
+def get_actors(movie: Tuple[str, str, int, List[str], str]) -> List[str]:
     return movie[3]
+
+def get_genre(movie: Tuple[str, str, int, List[str], str]) -> List[str]:
+    return movie[4]
 
 
 # Below are a set of actions. Each takes a list argument and returns a list of answers
@@ -162,6 +165,16 @@ def actors_by_director(matches: List[str]) -> List[str]:
         if get_director == director:
             result = get_actors(movie)
             break
+     
+    return result
+
+def genre_by_title(matches: List[str]) -> List[str]:
+    result = []
+    title = matches[0]
+
+    for movie in movie_db:
+        if get_title == title:
+            result.append.get_genre(movie)
     
     return result
 
@@ -187,6 +200,7 @@ pa_list: List[Tuple[List[str], Callable[[List[str]], List[Any]]]] = [
     (str.split("when was % made"), year_by_title),
     (str.split("in what movies did % appear"), title_by_actor),
     (str.split("who acted in movies directed by %"), actors_by_director),
+    (str.split("what genre is %"), genre_by_title),
     (["bye"], bye_action),
 ]
 
