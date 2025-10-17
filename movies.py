@@ -652,9 +652,8 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "cord newman",
             "caitlin harty (baddie)"
         ],
-    ),  
         "shark/scifi",
-    )  
+    ),  
     (
         "the sandlot",
         "david mickey evans",
