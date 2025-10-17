@@ -109,7 +109,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "agnes moorehead",
             "ruth warrick",
         ],
-        "mystery"
+        "mystery",
     ),
     (
         "gone with the wind",
@@ -141,7 +141,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "arthur kennedy",
             "donald wolfit",
         ],
-        "war/adventure"
+        "war/adventure",
     ),
     (
         "the manchurian candidate",
@@ -187,7 +187,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "doris dowling",
             "michael laurence",
         ],
-        "romance"
+        "romance",
     ),
     (
         "spartacus",
@@ -203,7 +203,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "tony curtis",
             "woody strode",
         ],
-        "action"
+        "action",
     ),
     (
         "a star is born",
@@ -327,7 +327,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "jacques fabbri",
             "chantal deruaz",
         ],
-        "thriller/crime"
+        "thriller/crime",
     ),
     (
         "the dresser",
@@ -391,7 +391,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "josh picker",
             "kiri paramore",
         ],
-        "romance/drama"
+        "romance/drama",
     ),
     ("gates of heaven", "errol morris", 1978, [], "documentary"),
     (
@@ -426,7 +426,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "lorraine gary",
             "murray hamilton",
         ],
-        "shark/thriller/action/suspense/monster"
+        "shark/thriller/action/suspense/monster",
     ),
     (
         "johnny got his gun",
@@ -494,7 +494,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "bill paxton",
             "lance henriksen",
         ],
-        "action/war/robots/futuristic"
+        "action/war/robots/futuristic",
     ),
     (
         "jurassic park",
@@ -559,7 +559,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "natascha mcelhone",
             "noah emmerich"
         ],
-        "comedy/scifi"
+        "comedy/scifi",
     ),
     (
         "the matrix",
@@ -572,7 +572,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "hugo weaving",
             "gloria foster",
         ],
-        "scifi/action"
+        "scifi/action",
     ),
     (
         "the abyss",
@@ -585,7 +585,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "kidd brewer jr",
             "dick warlock",
         ],
-        "scifi/adventure"
+        "scifi/adventure",
     ),
     (
         "crouching tiger, hidden dragon",
@@ -638,6 +638,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "shuya sophia cai",
             "rainn wilson"
         ]
+        "shark/monster/adventure",
     ),
     (
         "6 headed shark attack",
@@ -651,6 +652,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "cord newman",
             "caitlin harty (baddie)"
         ]
+        "shark/scifi/bad-shark-movie"
     )  
     (
         "the sandlot",
