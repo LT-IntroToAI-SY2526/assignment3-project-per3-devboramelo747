@@ -638,7 +638,6 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "shuya sophia cai",
             "rainn wilson"
         ]
-        "shark/monster/adventure",
     ),
     (
         "6 headed shark attack",
@@ -652,7 +651,6 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "cord newman",
             "caitlin harty (baddie)"
         ]
-        "shark/scifi/bad-shark-movie"
     )  
     (
         "the sandlot",
