@@ -566,7 +566,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "alaine huntington",
             "bobby kerecz",
             "christy moritz",
-        ]
+        ],
     ),
     (
         "bad cgi sharks",
