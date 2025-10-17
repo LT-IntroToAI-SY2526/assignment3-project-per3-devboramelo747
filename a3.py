@@ -178,6 +178,14 @@ def genre_by_title(matches: List[str]) -> List[str]:
     
     return result
 
+def title_by_genre(matches: List[str]) -> List[str]:
+    result = []
+    genre = matches[0]
+
+    for movie in movie_db:
+        if get_genre == genre:
+            result.append.get_title(movie)
+
 
 # dummy argument is ignored and doesn't matter
 def bye_action(dummy: List[str]) -> None:
@@ -201,6 +209,7 @@ pa_list: List[Tuple[List[str], Callable[[List[str]], List[Any]]]] = [
     (str.split("in what movies did % appear"), title_by_actor),
     (str.split("who acted in movies directed by %"), actors_by_director),
     (str.split("what genre is %"), genre_by_title),
+    (str.split("what movies are in the % genre"), title_by_genre),
     (["bye"], bye_action),
 ]
 
