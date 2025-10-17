@@ -391,7 +391,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "josh picker",
             "kiri paramore",
         ],
-        "romance/drama"
+        "romance/drama",
     ),
     ("gates of heaven", "errol morris", 1978, [], "documentary"),
     (
@@ -559,7 +559,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "natascha mcelhone",
             "noah emmerich"
         ],
-        "comedy/scifi"
+        "comedy/scifi",
     ),
     (
         "the matrix",
@@ -572,7 +572,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "hugo weaving",
             "gloria foster",
         ],
-        "scifi/action"
+        "scifi/action",
     ),
     (
         "the abyss",
@@ -585,7 +585,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "kidd brewer jr",
             "dick warlock",
         ],
-        "scifi/adventure"
+        "scifi/adventure",
     ),
     (
         "crouching tiger, hidden dragon",
@@ -636,8 +636,8 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "li bingbing",
             "ruby rose",
             "shuya sophia cai",
-            "rainn wilson"
-        ]
+            "rainn wilson",
+        ],
     ),
     (
         "6 headed shark attack",
@@ -649,8 +649,8 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "meghan oberholzer",
             "brandon auret",
             "cord newman",
-            "caitlin harty (baddie)"
-        ]
+            "caitlin harty (baddie)",
+        ],
     )  
     (
         "the sandlot",
