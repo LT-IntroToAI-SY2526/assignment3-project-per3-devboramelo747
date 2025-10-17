@@ -109,7 +109,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "agnes moorehead",
             "ruth warrick",
         ],
-        "mystery"
+        "mystery",
     ),
     (
         "gone with the wind",
@@ -141,7 +141,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "arthur kennedy",
             "donald wolfit",
         ],
-        "war/adventure"
+        "war/adventure",
     ),
     (
         "the manchurian candidate",
@@ -187,7 +187,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "doris dowling",
             "michael laurence",
         ],
-        "romance"
+        "romance",
     ),
     (
         "spartacus",
@@ -203,7 +203,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "tony curtis",
             "woody strode",
         ],
-        "action"
+        "action",
     ),
     (
         "a star is born",
@@ -327,7 +327,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "jacques fabbri",
             "chantal deruaz",
         ],
-        "thriller/crime"
+        "thriller/crime",
     ),
     (
         "the dresser",
@@ -426,7 +426,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "lorraine gary",
             "murray hamilton",
         ],
-        "shark/thriller/action/suspense/monster"
+        "shark/thriller/action/suspense/monster",
     ),
     (
         "johnny got his gun",
@@ -494,7 +494,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "bill paxton",
             "lance henriksen",
         ],
-        "action/war/robots/futuristic"
+        "action/war/robots/futuristic",
     ),
     (
         "jurassic park",
@@ -636,8 +636,9 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "li bingbing",
             "ruby rose",
             "shuya sophia cai",
-            "rainn wilson",
+            "rainn wilson"
         ],
+        "shark/action/adventure",
     ),
     (
         "6 headed shark attack",
@@ -649,9 +650,11 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "meghan oberholzer",
             "brandon auret",
             "cord newman",
-            "caitlin harty (baddie)",
+            "caitlin harty (baddie)"
         ],
     ),  
+        "shark/scifi",
+    )  
     (
         "the sandlot",
         "david mickey evans",
