@@ -651,7 +651,7 @@ movie_db: List[Tuple[str, str, int, List[str], str]] = [
             "cord newman",
             "caitlin harty (baddie)",
         ],
-    )  
+    ),  
     (
         "the sandlot",
         "david mickey evans",
