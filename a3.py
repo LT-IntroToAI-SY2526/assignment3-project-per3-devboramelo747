@@ -237,6 +237,17 @@ def query_loop() -> None:
 
     print("\nSo long!\n")
 
+def beast_search(matches: List[str]) -> List[str]:
+    result = []
+    beast = matches[0]
+
+    for movie in movie_db:
+        if get_director == beast:
+            result = get_actors(movie)
+            break
+    
+    return result 
+
 
 # uncomment the following line once you've written all of your code and are ready to try
 # it out. Before running the following line, you should make sure that your code passes

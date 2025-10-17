@@ -12,7 +12,7 @@
 # `[(title, director, year, [actress_one, actor_two, ...]), ...]`
 from typing import List, Tuple
 
-movie_db: List[Tuple[str, str, int, List[str]]] = [
+movie_db: List[Tuple[str, str, int, List[str], str]] = [
     (
         "amarcord",  # title
         "federico fellini",  # director
@@ -23,6 +23,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "pupella maggio",
             "armando drancia",
         ],  # actors/actresses
+        "comedy/drama",
     ),
     (
         "the big easy",
@@ -36,6 +37,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "john goodman",
             "charles ludlam",
         ],
+        "thriller/crime",
     ),
     (
         "boyz n the hood",
@@ -48,6 +50,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "tyra ferrell",
             "morris chestnut",
         ],
+        "thriller/crime",
     ),
     (
         "dead again",
@@ -60,18 +63,21 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "derek jacobi",
             "hanna schygulla",
         ],
+        "time killer",
     ),
     (
         "the godfather",
         "francis ford coppola",
         1972,
         ["marlon brando", "al pacino", "james caan", "robert duvall", "diane keaton"],
+        "it insists upon itself",
     ),
     (
         "an american in paris",
         "vincente minnelli",
         1952,
         ["gene kelley", "leslie caron", "oscar levant", "nina foch", "george guetary"],
+        "musical/romance",
     ),
     (
         "casablanca",
@@ -88,6 +94,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "conrad veidt",
             "dooley wilson",
         ],
+        "romance",
     ),
     (
         "citizen kane",
@@ -102,6 +109,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "agnes moorehead",
             "ruth warrick",
         ],
+        "mystery"
     ),
     (
         "gone with the wind",
@@ -115,6 +123,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "hattie mcdaniel",
             "butterfly mcqueen",
         ],
+        "romance/war",
     ),
     (
         "lawrence of arabia",
@@ -132,6 +141,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "arthur kennedy",
             "donald wolfit",
         ],
+        "war/adventure"
     ),
     (
         "the manchurian candidate",
@@ -149,6 +159,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "khigh dhiegh",
             "james edwards",
         ],
+        "thriller/war",
     ),
     (
         "metropolis",
@@ -161,6 +172,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "rudolf kleinrogge",
             "heinrich george",
         ],
+        "scifi/thriller",
     ),
     (
         "othello",
@@ -175,6 +187,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "doris dowling",
             "michael laurence",
         ],
+        "romance"
     ),
     (
         "spartacus",
@@ -190,6 +203,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "tony curtis",
             "woody strode",
         ],
+        "action"
     ),
     (
         "a star is born",
@@ -202,12 +216,14 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "tommy noonan",
             "charles bickford",
         ],
+        "romance/music",
     ),
     (
         "after the rehearsal",
         "ingmar bergman",
         1984,
         ["erland josephson", "ingrid thulin", "lena olin", "nadja palmstjerna-weiss"],
+        "drama/comedy",
     ),
     (
         "amadeus",
@@ -222,6 +238,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "christine ebersole",
             "jeffrey jones",
         ],
+        "musical/drama",
     ),
     (
         "blood simple",
@@ -234,6 +251,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "m emmet walsh",
             "samm-art williams",
         ],
+        "crime/thriller",
     ),
     (
         "chinatown",
@@ -249,6 +267,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "diane ladd",
             "roman polanski",
         ],
+        "thriller/mystery",
     ),
     (
         "the cotton club",
@@ -263,6 +282,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "james remar",
             "fred gwynne",
         ],
+        "musical/crime",
     ),
     (
         "the crying game",
@@ -277,6 +297,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "breffini mckenna",
             "joe savino",
         ],
+        "thriller/romance",
     ),
     (
         "the day of the jackal",
@@ -292,6 +313,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "olga georges-picot",
             "cyril cusack",
         ],
+        "thriller",
     ),
     (
         "diva",
@@ -305,12 +327,14 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "jacques fabbri",
             "chantal deruaz",
         ],
+        "thriller/crime"
     ),
     (
         "the dresser",
         "peter yates",
         1984,
         ["albert finney", "tom courtenay", "edward fox", "zena walker"],
+        "drama/comedy",
     ),
     (
         "el norte",
@@ -323,6 +347,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "alicia del lago",
             "trinidad silva",
         ],
+        "adventure/thriller",
     ),
     (
         "the exorcist",
@@ -336,6 +361,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "kitty winn",
             "lee j cobb",
         ],
+        "horror/thriller",
     ),
     (
         "a fish called wanda",
@@ -350,6 +376,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "tom georgeson",
             "patricia hayes",
         ],
+        "comedy/crime",
     ),
     (
         "flirting",
@@ -364,8 +391,9 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "josh picker",
             "kiri paramore",
         ],
+        "romance/drama"
     ),
-    ("gates of heaven", "errol morris", 1978, []),
+    ("gates of heaven", "errol morris", 1978, [], "documentary"),
     (
         "house of games",
         "david mamet",
@@ -378,12 +406,14 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "j t walsh",
             "jack wallace",
         ],
+        "thriller/noir",
     ),
     (
         "iceman",
         "fred schepisi",
         1984,
         ["timothy hutton", "john lone", "lindsay crouse"],
+        "crime/thriller",
     ),
     (
         "jaws",
@@ -396,6 +426,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "lorraine gary",
             "murray hamilton",
         ],
+        "shark/thriller/action/suspense/monster"
     ),
     (
         "johnny got his gun",
@@ -409,6 +440,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "donald sutherland",
             "eduard franz",
         ],
+        "anti-war/war",
     ),
     (
         "local hero",
@@ -421,6 +453,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "fulton mckay",
             "denis lawson",
         ],
+        "comedy/drama",
     ),
     (
         "malcolm x",
@@ -434,6 +467,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "delroy lindo",
             "spike lee",
         ],
+        "drama",
     ),
     (
         "top gun",
@@ -446,6 +480,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "anthony edwards",
             "meg ryan",
         ],
+        "action/war",
     ),
     (
         "the terminator",
@@ -459,6 +494,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "bill paxton",
             "lance henriksen",
         ],
+        "action/war/robots/futuristic"
     ),
     (
         "jurassic park",
@@ -472,6 +508,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "richard attenborough",
             "BD wong",
         ],
+        "thriller/adventure/dinosaurs/monster",
     ),
      (
         "sharknado",
@@ -483,6 +520,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "jaason simmons",
             "adrian bustamante",
         ],
+        "adventure/action/monster/natural disaster/shark",
     ),
     (
         "the shallows",
@@ -494,6 +532,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "sedona legge",
             "brett cullen",
         ],
+        "thriller/action/monster/shark",
     ),
     (
         "big",
@@ -507,6 +546,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "robert loggia",
             "john heard",
         ],
+        "comedy",
     ),
     (
         "the truman show",
@@ -519,6 +559,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "natascha mcelhone",
             "noah emmerich"
         ],
+        "comedy/scifi"
     ),
     (
         "the matrix",
@@ -531,6 +572,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "hugo weaving",
             "gloria foster",
         ],
+        "scifi/action"
     ),
     (
         "the abyss",
@@ -543,6 +585,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "kidd brewer jr",
             "dick warlock",
         ],
+        "scifi/adventure"
     ),
     (
         "crouching tiger, hidden dragon",
@@ -556,6 +599,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "xian gao",
             "cheng pei-pei",
         ],
+        "action/romance",
     ),
     (
         "shark exorcist",
@@ -567,6 +611,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "bobby kerecz",
             "christy moritz",
         ],
+        "shark/adventure/bad-shark-movie/monster",
     ),
     (
         "bad cgi sharks",
@@ -579,8 +624,8 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "matthew ellsworth",
             "matteo molinari",
             "dale e. turner",
-            
         ],
+        "shark/comedy/monster",
     ),  
     (
         "the meg",
@@ -591,8 +636,8 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "li bingbing",
             "ruby rose",
             "shuya sophia cai",
-            "rainn wilson",
-        ],
+            "rainn wilson"
+        ]
     ),
     (
         "6 headed shark attack",
@@ -604,8 +649,8 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "meghan oberholzer",
             "brandon auret",
             "cord newman",
-            "caitlin harty (baddie)",
-        ],
+            "caitlin harty (baddie)"
+        ]
     )  
     (
         "the sandlot",
@@ -618,6 +663,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "chauncey leopardi",
             "tom guiry",
         ],
+        "family/sports",
     ),
     (
         "alien",
@@ -631,6 +677,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "ian holm",
             "harry dean stanton",
         ],
+        "scifi/horror/monster/adventure",
     ),
     (
         "inception",
@@ -644,6 +691,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "elliot page",
             "marion cotillard",
         ],
+        "scifi/action",
     ),
     (
         "the sixth sense",
@@ -656,6 +704,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "donnie wahlberg",
             "mischa barton",
         ],
+        "horror/mystery",
     ),
     (
         "mad max: fury road",
@@ -669,6 +718,7 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "zoë kravitz",
             "courtney eaton",
         ],
+        "action/scifi",
     ),
     (
         "tron",
@@ -682,5 +732,6 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "dan shor",
             "barnard hughes",
         ],
+        "scifi/action",
     ),
 ]
