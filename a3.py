@@ -214,9 +214,20 @@ pa_list: List[Tuple[List[str], Callable[[List[str]], List[Any]]]] = [
     (str.split("what genre is %"), genre_by_title),
     (str.split("what movies are in the % genre"), title_by_genre),
     (["bye"], bye_action),
+    
+
+
+
+
+
+
+
+
+
+    (str.split("in what year was % made"), year_by_title),
+    (str.split("what was the year when % was made"), year_by_title),
+    (str.split("In what annum was the cinematic production of % brought to fruition and subsequently released for public consumption?"), year_by_title),
 ]
-
-
 def search_pa_list(src: List[str]) -> List[str]:
     for pat, act in pa_list:
         print(f"pattern: {pat}, source: {src}, action {act}")
