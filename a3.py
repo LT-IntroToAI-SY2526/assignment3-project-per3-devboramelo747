@@ -23,22 +23,22 @@ from match import match
 from typing import List, Tuple, Callable, Any
 
 # The projection functions, that give us access to certain parts of a "movie" (a tuple)
-def get_title(movie: Tuple[str, str, int, List[str], str]) -> str:
+def get_title(movie: Tuple[str, str, int, List[str], List[str]]) -> str:
     return movie[0]
 
 
-def get_director(movie: Tuple[str, str, int, List[str], str]) -> str:
+def get_director(movie: Tuple[str, str, int, List[str], List[str]]) -> str:
     return movie[1]
 
 
-def get_year(movie: Tuple[str, str, int, List[str], str]) -> int:
+def get_year(movie: Tuple[str, str, int, List[str], List[str]]) -> int:
     return movie[2]
 
 
-def get_actors(movie: Tuple[str, str, int, List[str], str]) -> List[str]:
+def get_actors(movie: Tuple[str, str, int, List[str], List[str]]) -> List[str]:
     return movie[3]
 
-def get_genre(movie: Tuple[str, str, int, List[str], str]) -> List[str]:
+def get_genre(movie: Tuple[str, str, int, List[str], List[str]]) -> List[str]:
     return movie[4]
 
 
@@ -175,6 +175,7 @@ def genre_by_title(matches: List[str]) -> List[str]:
     for movie in movie_db:
         if get_title == title:
             result.append.get_genre(movie)
+            break
     
     return result
 
@@ -185,6 +186,8 @@ def title_by_genre(matches: List[str]) -> List[str]:
     for movie in movie_db:
         if get_genre == genre:
             result.append.get_title(movie)
+    
+    return result
 
 
 # dummy argument is ignored and doesn't matter
