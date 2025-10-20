@@ -190,20 +190,18 @@ def title_by_genre(matches: List[str]) -> List[str]:
     return result
 
 
-# dummy argument is ignored and doesn't matter
+
 def bye_action(dummy: List[str]) -> None:
     raise KeyboardInterrupt
 
 
-# The pattern-action list for the natural language query system A list of tuples of
-# pattern and action It must be declared here, after all of the function definitions
+
 pa_list: List[Tuple[List[str], Callable[[List[str]], List[Any]]]] = [
     (str.split("what movies were made in _"), title_by_year),
     (str.split("what movies were made between _ and _"), title_by_year_range),
     (str.split("what movies were made before _"), title_before_year),
     (str.split("what movies were made after _"), title_after_year),
-    # note there are two valid patterns here two different ways to ask for the director
-    # of a movie
+    
     (str.split("who directed %"), director_by_title),
     (str.split("who was the director of %"), director_by_title),
     (str.split("what movies were directed by %"), title_by_director),
@@ -243,9 +241,7 @@ def search_pa_list(src: List[str]) -> List[str]:
 
 
 def query_loop() -> None:
-    """The simple query loop. The try/except structure is to catch Ctrl-C or Ctrl-D
-    characters and exit gracefully.
-    """
+    
     print("Welcome to the movie database!\n")
     while True:
         try:
